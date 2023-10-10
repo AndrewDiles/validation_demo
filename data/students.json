@@ -1,0 +1,20 @@
+[
+	{
+		"student-id": 1000,
+		"first-name": "Bimmy",
+		"last-name": "Lee",
+		"email": "the.true.dragon@gmail.com"
+	},
+	{
+		"student-id": 1001,
+		"first-name": "Tammy",
+		"last-name": "Holland",
+		"email": "TammyHamTime@email.com"
+	},
+	{
+		"student-id": 1002,
+		"first-name": "Bimmy",
+		"last-name": "Bimmerson",
+		"email": "B_Bimmster@yahoo.com"
+	}
+]

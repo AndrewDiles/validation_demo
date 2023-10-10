@@ -1,0 +1,16 @@
+[
+	{
+		"student-id": 1000,
+		"grades": [
+			12, 43, 50, 37
+		],
+		"average": 35.5
+	},
+	{
+		"student-id": 1001,
+		"grades": [
+			70, 80, 90, 100
+		],
+		"average": 85
+	}
+]
