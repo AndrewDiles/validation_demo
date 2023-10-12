@@ -134,15 +134,17 @@ const handleLogIn = (req, res) => {
 
 <h3 style="color: magenta">Some <span style="color:gold">golden</span> rules:</h3>
 
-- The server is the last line of defense: keep your saved data sanitary
+- The server is the last line of defense: maintain the sanitation of your data
 - Assume the front end is useless
-- Never dump the body into your database
+- Never dump the `req.body` into your database
 
 ---
 
 <h3 style="color: magenta">Demo objective</h3>
 
 Write a new endpoint that accepts the grades of a student.
+
+The student should exist, and not yet be "graded".
 
 `post` should accept a body of shape:
 ```
