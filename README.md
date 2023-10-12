@@ -144,8 +144,6 @@ const handleLogIn = (req, res) => {
 
 Write a new endpoint that accepts the grades of a student.
 
-The student should exist, and not yet be "graded".
-
 `post` should accept a body of shape:
 ```
 {
@@ -154,8 +152,13 @@ The student should exist, and not yet be "graded".
 }
 ```
 
-Ensure it validates the incoming information.
+Handler should **validate** the `req.body` to ensure:
 
-Ensure the existing data structures are maintained.
+- it has the correct shape
+- the values are within acceptable ranges
+- the target student exists
+- the student has not yet been graded
+
+Remember to maintain the data structure
 
 Respond to the request according to the outcome.
