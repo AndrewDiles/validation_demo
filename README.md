@@ -78,7 +78,7 @@ const handleLogIn = (req, res) => {
 
 	if (!foundUser) {
 		return res.status(404).json({message: "user not found"})
-	} else if (foundUser.password !=== password) {
+	} else if (foundUser.password !== password) {
 		return res.status(401).json({message: "wrong password"})
 	}
 
@@ -104,7 +104,7 @@ const handleLogIn = (req, res) => {
 
 	if (!foundUser) {
 		return user404(res)
-	} else if (foundUser.password !=== password) {
+	} else if (foundUser.password !== password) {
 		return wrongPassword(res)
 	}
 
